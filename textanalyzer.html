@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title> Text Analyzer </title>
+    <link rel="stylesheet" href="textanalyzer_css.css">
+</head>
+<body class="container">
+
+    <h1 class="head"> Text Analyzer </h1>
+     
+    <div>
+        <textarea class="form-control" rows="8" id="text" placeholder="Enter/paste text"></textarea>
+    </div>
+    <button onclick="analyze()" class="btn btn-primary"> Analyze </button>
+ 
+    <div id="output"> </div>
+ 
+<div id="search_word">
+    <input type="text" id="search" class="form-control" autocomplete="OFF">
+    <button onclick="check()" class="btn btn-info"> Search </button>
+    <div id="word_characteristics"> </div>
+</div>
+
+<footer>
+    <div class="footer">
+        Made with <span class="heart" style="color:rgb(231, 28, 62);">  &#10084; </span> BY | SAQIB <br>
+        +91 95480 97513 <br>
+        mohdsaqibnavodaya@gmail.com
+    </div>
+    
+</footer>
+    
+    <script src="textanalyzer_js.js">
+    </script>
+
+  
+</body>
+</html>

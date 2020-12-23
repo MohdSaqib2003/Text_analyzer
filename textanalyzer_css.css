@@ -1,0 +1,55 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: rgb(221, 219, 219);
+    text-align: center;
+}
+.head{
+ background-color: rgb(37, 202, 92);
+ padding: 20px;
+ font-size: 45px;
+ text-align: center;
+}
+div{
+ text-align: center;
+}
+#text{
+ /* padding: 10px; */
+ font-size: 20px;
+
+}
+#search{
+margin-top: 10px;
+}
+tr{
+ /* background-color: blueviolet; */
+ /* border: 1px solid black; */
+}
+td{
+ padding: 10px;
+ border-left: 1px solid black;
+}
+.btn{
+ margin: 10px;
+}
+#analyse{
+ border-collapse: collapse;
+ text-align: left;
+ margin: auto;
+}
+#word_char{
+border-collapse: collapse;
+margin: auto;
+}
+#search_word{
+ display:none;
+}
+
+footer{
+background-color: #57606f;
+text-align: center;
+padding: 20px;
+margin-top: 20px;
+}
