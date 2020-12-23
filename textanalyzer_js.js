@@ -38,7 +38,7 @@ if(search!="" && text!=""){
 var reg  = new RegExp(search,"gi");
 var count = text.match(reg);
 var word_percent = (count.length*100)/total_words;
-word_char.innerHTML = `<table border='1' class='table-striped ' id='word_char'> <tr> <th>&nbsp; &nbsp; Word &nbsp; &nbsp; </th> <th> &nbsp; &nbsp; Occurance &nbsp; &nbsp;</th> <th> &nbsp; &nbsp; Percentage &nbsp; &nbsp; </th> </tr>    <tr> <td> ${search} </th> <th> ${count.length} </th> <th> ${word_percent.toFixed(2)} </th> </tr>  </table>`;
+word_char.innerHTML = `<table border='1' class='table-striped ' id='word_char'> <tr> <th>&nbsp; &nbsp; Word &nbsp; &nbsp; </th> <th> &nbsp; &nbsp; Occurrence &nbsp; &nbsp;</th> <th> &nbsp; &nbsp; Percentage &nbsp; &nbsp; </th> </tr>    <tr> <td> ${search} </th> <th> ${count.length} </th> <th> ${word_percent.toFixed(2)} </th> </tr>  </table>`;
 // console.log(search + " percent : "+word_percent.toFixed(2));  
 // console.log("Total "+search+" Paragraph : "+count.length);  
 }
